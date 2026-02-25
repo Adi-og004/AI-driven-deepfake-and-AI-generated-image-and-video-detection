@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Models / Datasets
+demo_dataset/
+*.pth
+*.pt
+*.onnx
