@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { AlertTriangle, ShieldCheck, Fingerprint, Info, CheckCircle2 } from "lucide-react";
+import { AlertTriangle, ShieldCheck, Fingerprint, Info } from "lucide-react";
 import clsx from "clsx";
 
 interface ResultsDisplayProps {

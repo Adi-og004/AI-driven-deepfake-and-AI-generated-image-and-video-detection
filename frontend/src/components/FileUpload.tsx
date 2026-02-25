@@ -90,6 +90,7 @@ export default function FileUpload({ onFileSelect, isAnalyzing }: FileUploadProp
                             className="absolute inset-0 w-full h-full"
                         >
                             {fileType === "image" ? (
+                                /* eslint-disable-next-line @next/next/no-img-element */
                                 <img src={preview} alt="Preview" className="w-full h-full object-contain bg-black/50" />
                             ) : (
                                 <video src={preview} className="w-full h-full object-contain bg-black/50" controls={false} autoPlay loop muted />

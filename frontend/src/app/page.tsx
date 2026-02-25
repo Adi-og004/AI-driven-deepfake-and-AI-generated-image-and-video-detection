@@ -46,7 +46,7 @@ export default function Home() {
 
       const data: AnalysisResult = await response.json();
       setResult(data);
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error(err);
       setError("Failed to connect to the analysis engine. Please ensure the backend server is running.");
     } finally {
